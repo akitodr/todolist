@@ -1,0 +1,63 @@
+* {
+    background-color: #1D222C;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(255, 217, 0);
+}
+
+.add-task {
+    display: flex;
+    justify-content: center;
+}
+
+#add-input {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    padding: 0.8em;
+    width: 40%;
+    border-radius: 0.5em;
+    background-color: aliceblue;
+    border-style: none;
+}
+
+#add-input:focus {
+    outline-color: rgb(255, 217, 0);
+}
+
+#add-btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 1em;
+    border-radius: 0.5em;
+    background-color: rgb(255, 217, 0);
+    border-style: none;
+    width: 7%;
+}
+
+ul {
+    font-family: 'Ubuntu', sans-serif;
+    color: #f0ffff;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    width: 53%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.todo-checkbox {
+    margin-right: 1em;
+    height: 25px;
+    width: 25px;
+}
